@@ -1,6 +1,12 @@
 body {
   font-family: "Inter";
 }
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
 ul {
   list-style-type: none;
   margin: 0;
