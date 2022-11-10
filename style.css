@@ -1,16 +1,18 @@
 body {
   font-family: "Inter";
+  font-size: small;
+  margin: 80px;
 }
 
 header {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-}
-ul {
   list-style-type: none;
-  margin: 0;
+  display: inline;
   padding: 0;
+  margin: 0;
+}
+
+.header li {
+  display: inline;
 }
 
 .grid {
@@ -79,8 +81,12 @@ img {
   grid-row-end: 4;
 }
 
-.button {
+.button1 {
   grid-column-start: 1;
   grid-row-start: 4;
   grid-row-end: 5;
+}
+
+.columns {
+  display: flex;
 }
