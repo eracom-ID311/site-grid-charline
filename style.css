@@ -1,7 +1,8 @@
 body {
   font-family: "Inter";
   font-size: small;
-  margin: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 header {
@@ -89,4 +90,20 @@ img {
 
 .columns {
   display: flex;
+}
+
+.support {
+  /* margin-bottom: 20px; */
+}
+
+.rose {
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+}
+
+.phone {
+  height: 50px;
+  position: absolute;
+  z-index: 2;
 }
