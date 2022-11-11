@@ -1,14 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Inter";
   font-size: small;
-  margin: 80px;
 }
 
 header {
   list-style-type: none;
   display: inline;
-  padding: 0;
-  margin: 0;
 }
 
 .header li {
@@ -89,4 +92,23 @@ img {
 
 .columns {
   display: flex;
+}
+
+.bigBox{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.smallBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.smallBox a {
+  margin: 0 20px;
+  text-decoration: none;
 }
