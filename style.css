@@ -155,6 +155,27 @@ img {
 
 .columns {
     display: flex;
+    margin-top: 20px;
+}
+
+[alt="phone"] {
+    background-color: #e84393;
+    border-radius: 50%;
+}
+
+[alt="pie"] {
+    background-color: #0984e3;
+    border-radius: 50%;
+}
+
+[alt="zap"] {
+    background-color: #6c5ce7;
+    border-radius: 50%;
+}
+
+[alt="thumbs"] {
+    background-color: #00b894;
+    border-radius: 50%;
 }
 
 .support {
@@ -168,4 +189,14 @@ img {
     border-width: 0.5px;
     height: 30px;
     width: 120px;
+    margin-top: 10px;
+}
+
+.follow {
+    padding-top: 200px;
+    font-variant-caps: small-caps;
+}
+
+.email p {
+    font-variant-caps: small-caps;
 }
