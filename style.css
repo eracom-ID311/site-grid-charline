@@ -200,3 +200,16 @@ img {
 .email p {
     font-variant-caps: small-caps;
 }
+
+.keep p {
+    font-variant-caps: small-caps;
+}
+
+.vague img {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+}
